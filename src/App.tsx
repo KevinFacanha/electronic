@@ -28,6 +28,7 @@ function AppContent() {
   }
 
   return (
+    
     <div className="min-h-screen bg-gray-100 flex flex-col">
       <Navbar onNavigate={handleNavigate} currentPage={currentPage} />
       
